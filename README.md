@@ -34,9 +34,9 @@ become final findings. The human approves every phase transition.
 
 > [!WARNING]
 > Running OpenHack against an entire codebase with the full expert scope can use
-> a lot of model tokens. For best results, use frontier models. To control token
-> usage, review the generated testing scenarios and run only the ones you want to
-> prioritize.
+> a lot of model tokens. Cheaper models can still run the workflow, but frontier
+> models produce the best results. To control token usage, review the generated
+> testing scenarios and run only the ones you want to prioritize.
 
 The easiest way to get started is to open this repository in a coding harness
 such as Codex, Claude Code, or Cursor and ask it:
@@ -435,11 +435,20 @@ See [`AGENTS.md`](AGENTS.md), [`CONTRIBUTING.md`](CONTRIBUTING.md), and
 
 ## About Hadrian
 
-[Hadrian](https://hadrian.io/) is an offensive security company building
-agentic AI systems for attack surface discovery, adversarial exposure
-validation, and automated penetration testing. Hadrian's platform uses
-autonomous agents to continuously find, verify, and prioritize exploitable
-security risks across modern attack surfaces.
+[Hadrian](https://hadrian.io/) is the offensive security platform helping
+enterprise security teams see what attackers see and act before they do. Its
+agentic engine offers frictionless, always-on discovery, validation, and
+mobilization of an organization's most critical cyber risks.
+
+Trained by elite hackers with top offensive knowledge, Hadrian adapts to the
+organization's unique environment to continuously probe, discover, and
+validate the risks that attackers can actually exploit. Coupled with a
+proprietary predictive discovery agent™, Hadrian's agentic suite autonomously
+verifies remediation to deliver a robust end-to-end solution. Global customers
+including Fortune 500 leaders rely on Hadrian to prevent the most
+sophisticated cyber attacks, fortify defenses, increase efficiency, and
+maximize cyber resilience. To learn more, visit
+[www.hadrian.io](https://www.hadrian.io/).
 
 ---
 
